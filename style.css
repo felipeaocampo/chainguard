@@ -12,6 +12,11 @@ h1 {
   margin: 20px 0 50px 0;
 }
 
+.todo-form input {
+  padding: 2px;
+  margin-bottom: 20px;
+}
+
 .todo-list {
   max-width: 80%;
   margin: 0 auto;
@@ -26,6 +31,7 @@ li {
   align-items: center;
   max-width: 70%;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .features {
@@ -35,6 +41,4 @@ li {
 
 .task {
   width: 500px;
-  border-right: 1px solid red;
-  border-left: 1px solid red;
 }
