@@ -8,18 +8,33 @@ body {
   text-align: center;
 }
 
+h1 {
+  margin: 20px 0 50px 0;
+}
+
 .todo-list {
-  border: 1px solid black;
   max-width: 80%;
   margin: 0 auto;
 }
 
+ul {
+  text-align: left;
+}
+
 li {
   display: flex;
+  align-items: center;
   max-width: 70%;
   margin: 0 auto;
 }
 
-.test {
+.features {
+  display: flex;
+  gap: 20px;
+}
+
+.task {
   width: 500px;
+  border-right: 1px solid red;
+  border-left: 1px solid red;
 }
